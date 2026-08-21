@@ -104,7 +104,7 @@ st.session_state.ans2_val = ans2
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 ans3 = st.text_input(
-  "ข้อ 3: Glen Powell is the best `P _ _ s`. seller. 🖊️",
+  "ข้อ 3: Glen Powell is the best `p _ n _`.seller. 🖊️",
   value=st.session__state.ans3_val,
 )
 ans4 = st.text_input(
