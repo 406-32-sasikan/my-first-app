@@ -115,7 +115,7 @@ ans3 = st.text_input(
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: Jason woke up late because his `a l _ r _ c l o _ _`. ⏰",
+    "ข้อ 4: Jason woke up late because his `a l _ r _ c l o _ _ w e n t o f f`. ⏰",
     value=st.session_state.ans4_val,
 )
     
