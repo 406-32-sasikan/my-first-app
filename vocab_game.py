@@ -107,9 +107,6 @@ ans2 = st.text_input(
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
 
-st.session_state.ans4_val = ans4
-st.session_state.ans3_val = ans3
-
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 ans3 = st.text_input(
     "ข้อ 3: I like Chocolate cake it is so `d _ l i c _ o _ s`. 🍓",
@@ -119,6 +116,9 @@ ans4 = st.text_input(
     "ข้อ 4: Jason woke up late because his `a l _ r _ c l o _ _ w e n t o f f`. ⏰",
     value=st.session_state.ans4_val,
 )
+
+st.session_state.ans4_val = ans4
+st.session_state.ans3_val = ans3
     
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
