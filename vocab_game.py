@@ -45,7 +45,7 @@ def show_result_dialog(ans1, ans2):
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
 
-   u_ans3 = ans3.strip().lower()
+    u_ans3 = ans3.strip().lower()
     u_ans4 = ans4.strip().lower()
 
     # ตรวจข้อ 3
