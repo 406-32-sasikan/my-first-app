@@ -50,10 +50,7 @@ def show_result_dialog(ans1, ans2):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
-    def show_result_dialog(ans3, ans4):
-    st.balloons()
-    score = 0
-
+    
     u_ans3 = ans3.strip().lower()
     u_ans4 = ans4.strip().lower()
 
